@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-cell-group": "../../components/cell-group/cell-group",
+    "t-cell": "../../components/cell/cell",
+    "t-picker": "../../components/picker/picker",
+    "t-picker-item": "../../components/picker-item/picker-item"
+  }
+}

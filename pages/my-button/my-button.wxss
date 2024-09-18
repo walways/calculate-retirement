@@ -1,0 +1,3 @@
+.button-example {
+  text-align: center; /* 可用于文本居中 */
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "DateTimePicker",
+  "usingComponents": {
+    "my-time-picker":"../my-time-picker/time-picker",
+    "my-sex-picker":"../my-sex-picker/sex-picker",
+    "my-button":"../my-button/my-button",
+    "t-toast": "../../components/toast/toast",
+    "t-notice-bar":"../../components/notice-bar/notice-bar"
+  }
+}

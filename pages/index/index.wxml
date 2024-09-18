@@ -1,0 +1,20 @@
+<t-toast id="t-toast" />
+
+<view  class="a-b-c">
+  <t-demo title="退休日期计算" ></t-demo>
+</view>
+
+<my-time-picker id="my-time-picker"  value="selectedDateTime" />
+<my-sex-picker id="my-sex-picker" value="selectedSex" />
+<my-button id="my-button"  bind:change="onTabButton" />
+
+<t-demo  title="{{showLable}}">
+  <t-notice-bar class="c-p-d"  visible="{{showRes}}" prefixIcon="{{false}}" id="res-1" content="您的退休年龄:   {{retirementAg}}">
+</t-notice-bar>
+<cell></cell>
+<t-notice-bar class="c-p-d"  visible="{{showRes}}" prefixIcon="{{false}}" id="res-1" content="您的退休日期:   {{retirementDate}} ">
+</t-notice-bar>
+<t-notice-bar class="c-p-d"  visible="{{showRes}}" prefixIcon="{{false}}" id="res-1" content="距离退休还有:   {{monthYearsUntilRetirement}}">
+</t-notice-bar>
+</t-demo>
+

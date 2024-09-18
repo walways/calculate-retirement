@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {
+    "t-demo": "./components/demo-block/index",
+    "t-button": "./components/button/button",
+    "t-icon": "./components/icon/icon",
+    "t-toast":"./components/toast/toast"
+  },
+  "lazyCodeLoading": "requiredComponents"
+}

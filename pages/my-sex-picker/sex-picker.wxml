@@ -1,0 +1,14 @@
+<t-cell class="mb-16" title="性别" arrow hover note="{{sexText}}" bind:click="onTitlePicker" />
+<t-picker
+  visible="{{sexVisible}}"
+  value="{{sexValue}}"
+  data-key="sex"
+  title="{{sexTitle}}"
+  cancelBtn="取消"
+  confirmBtn="确认"
+  bindchange="onPickerChange"
+  bindpick="onColumnChange"
+  bindcancel="onPickerCancel"
+>
+<t-picker-item options="{{sexs}}"></t-picker-item>
+</t-picker>
